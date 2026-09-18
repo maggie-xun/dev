@@ -3,16 +3,16 @@
 layout: home
 
 hero:
-  name: "xun.dev"
-  text: "xun dev"
+  name: 'xun.dev'
+  text: 'xun dev'
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: frontend
+      link: /frontend
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: 生活
+      link: /reading-notes
 
 features:
   - title: Feature A
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

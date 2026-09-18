@@ -2,8 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "xun.dev",
-  description: "xun dev",
+  title: 'xun.dev',
+  description: 'xun dev',
   base: '/dev/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -14,6 +14,29 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '前端',
+        items: [
+          {
+            text: 'Vue3',
+            link: '/frontend/vue3',
+            items: [{ text: 'props', link: '/frontend/vue3/props' }]
+          },
+          {
+            text: '一些最佳实践',
+            link: '/frontend/best-practices',
+            items: [{ text: '虚拟列表原理及实现', link: '/frontend/best-practices/virtual-list' }]
+          }
+        ]
+      },
+      {
+        text: '读书笔记',
+        items: [
+          { text: '读书笔记模板', link: '/reading-notes/template' },
+          { text: '高效能人士的七个习惯', link: '/reading-notes/the-7-habits-of-highly-effective-people' },
+          { text: '重启人生', link: '/reading-notes/restart-your-life' }
+        ]
+      },
+      {
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
@@ -22,8 +45,6 @@ export default defineConfig({
       }
     ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+    socialLinks: [{ icon: 'github', link: 'https://github.com/vuejs/vitepress' }]
   }
 })

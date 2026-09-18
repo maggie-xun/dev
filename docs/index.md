@@ -8,10 +8,10 @@ hero:
   tagline: My great project tagline
   actions:
     - theme: brand
-      text: frontend
+      text: Frontend
       link: /frontend
     - theme: alt
-      text: 生活
+      text: Reading
       link: /reading-notes
 
 features:

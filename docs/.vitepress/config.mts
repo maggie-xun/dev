@@ -14,7 +14,7 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: '前端',
+        text: 'frontend',
         items: [
           {
             text: 'Vue3',

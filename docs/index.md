@@ -5,11 +5,11 @@ layout: home
 hero:
   name: 'xun.dev'
   text: 'xun dev'
-  tagline: My great project tagline
+  tagline: Some days you bloom,some days you grow root.Both matter.
   actions:
     - theme: brand
       text: Frontend
-      link: /frontend
+      link: /frontend/
     - theme: alt
       text: Reading
       link: /reading-notes

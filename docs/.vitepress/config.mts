@@ -25,7 +25,7 @@ export default defineConfig({
               { text: 'attrs', link: '/frontend/vue3/attrs' },
               { text: 'slots', link: '/frontend/vue3/slots' },
               { text: 'provide/inject', link: '/frontend/vue3/provide-inject' },
-              { text: 'direction', link: '/frontend/vue3/direction' },
+              { text: '指令', link: '/frontend/vue3/directive' },
               { text: 'composition-api', link: '/frontend/vue3/composition-api' }
 
               // { text: 'ref/reactive', link: '/frontend/vue3/ref-reactive' },

@@ -2,7 +2,7 @@
     <child v-bind='$attrs' />
     ```
 2.  透传是指没有被props 和emits声明的attribute或v-on事件监听，一般是class id style
-3.  在 <script setup> 中使用 useAttrs() API 来访问一个组件的所有透传 attribute：
+3.  在<script setup></script>中使用useAttrs()API来访问一个组件的所有透传attribute
 4.  Vue 2 的 $listeners 在 Vue 3 中去哪了
   移除，合并进$attrs
 5.  $attrs不是响应式的，useAttrs()返回也不是响应式的，但模版里能用，因为组件更新会获取

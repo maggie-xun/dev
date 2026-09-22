@@ -19,7 +19,18 @@ export default defineConfig({
           {
             text: 'Vue3',
             link: '/frontend/vue3',
-            items: [{ text: 'props', link: '/frontend/vue3/props' }]
+            items: [
+              { text: 'props', link: '/frontend/vue3/props' },
+              { text: 'async', link: '/frontend/vue3/async' },
+              { text: 'attrs', link: '/frontend/vue3/attrs' },
+              { text: 'slots', link: '/frontend/vue3/slots' },
+              { text: 'provide/inject', link: '/frontend/vue3/provide-inject' },
+              { text: 'direction', link: '/frontend/vue3/direction' },
+              { text: 'composition-api', link: '/frontend/vue3/composition-api' }
+
+              // { text: 'ref/reactive', link: '/frontend/vue3/ref-reactive' },
+              // { text: 'watch/watchEffect', link: '/frontend/vue3/watch-watchEffect' }
+            ]
           },
           {
             text: '一些最佳实践',
